@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_country_adapter">CountryAdapter</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
 </resources>
