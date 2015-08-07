@@ -66,7 +66,7 @@ public class DetailActivity extends BaseActivity implements View.OnClickListener
 //        animationView.setPivotY(mPosition);
         animationView.animate()
                 .scaleY(0.2f)
-                .setDuration(200)
+                .setDuration(300)
                 .setInterpolator(new AccelerateInterpolator())
                 .setListener(new AnimatorListenerAdapter() {
                     @Override
@@ -82,7 +82,7 @@ public class DetailActivity extends BaseActivity implements View.OnClickListener
                 finish();
                 overridePendingTransition(0, 0);
             }
-        },200);
+        },300);
 
     }
 
